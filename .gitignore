@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Allow .cpp and .hpp files
+!*.cpp
+!*.hpp
+
+# Allow directories (otherwise .cpp/.hpp files in subdirectories would be ignored)
+!*/
+# Allow directories (otherwise .cpp/.hpp files in subdirectories would be ignored)
+!*.gitignore
+# Ignore .vs folder
+.vs/
+ 
